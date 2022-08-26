@@ -233,7 +233,7 @@ section:nth-child(2n + 1) {
 }
 
 .timeline-box::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 15px;
   height: 15px;
@@ -353,12 +353,16 @@ section:nth-child(2n + 1) {
   padding: 10px;
 }
 
+.portfolio-details p {
+  font-size: larger;
+}
+
 .portfolio-image-container:hover {
   box-shadow: 0 0 20px #74adc8;
 }
 
 .portfolio-image-container:hover .portfolio-details {
-  background-color: #80808078;
+  background-color: #33333378;
   color: white;
 }
 
@@ -439,7 +443,7 @@ textarea {
   font-size: 1.05rem;
 }
 
-#contact-form button[type="submit"] {
+#contact-form button[type='submit'] {
   background: transparent;
   font-size: 0.95rem;
   border: 2px solid white;
